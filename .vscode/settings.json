@@ -1,0 +1,13 @@
+{
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "Dracula",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "clear ; python -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python"
+}

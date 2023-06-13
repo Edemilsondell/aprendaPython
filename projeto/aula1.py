@@ -1,0 +1,6 @@
+print("\nText!")
+print(4*8)
+print(744/2)
+print(1284+720)
+print(25-6)
+print("Parabéns.")
