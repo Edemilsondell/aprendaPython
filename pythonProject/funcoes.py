@@ -9,8 +9,17 @@ print()
 
 import math
 
+a = input("Digite um numero para A:")
+b = input("Digite um numero para B:")
+c = input("Digite um numero para C:")
+
+ax = int(a)
+bx = int(b)
+cx = int(c)
+
 def calcular_baskara(a, b, c):
     discriminante = b**2 - 4*a*c
+    print("Delta = ", discriminante)
     
     if discriminante > 0:
         raiz1 = (-b + math.sqrt(discriminante)) / (2*a)
@@ -23,21 +32,21 @@ def calcular_baskara(a, b, c):
         return "Não existem raízes reais."
 
 # Exemplo de uso da função
-raizes = calcular_baskara(-7, -3, 5)
+# raizes = calcular_baskara(-7, 3, 5)
+raizes = calcular_baskara(ax, bx, cx)
 print(raizes)
 
+# def  soma(x, y):
+#     print(x + y)
 
-def  soma(x, y):
-    print(x + y)
+# soma(10, 5)
 
-soma(10, 5)
+# def  mult(x, y):
+#     print(x * y)
 
-def  mult(x, y):
-    print(x * y)
+# mult(10, 5)
 
-mult(10, 5)
+# def  subtrair(x, y):
+#     print(x - y)
 
-def  subtrair(x, y):
-    print(x - y)
-
-subtrair(10, 5)
+# subtrair(10, 5)
