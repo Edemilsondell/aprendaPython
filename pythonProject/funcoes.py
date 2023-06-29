@@ -19,7 +19,7 @@ cx = int(c)
 
 def calcular_baskara(a, b, c):
     discriminante = b**2 - 4*a*c
-    print("Delta = ", discriminante)
+    print("\nDelta = ", discriminante)
     
     if discriminante > 0:
         raiz1 = (-b + math.sqrt(discriminante)) / (2*a)
@@ -33,6 +33,7 @@ def calcular_baskara(a, b, c):
 
 # Exemplo de uso da função
 # raizes = calcular_baskara(-7, 3, 5)
+# calcular_baskara(ax, bx, cx)
 raizes = calcular_baskara(ax, bx, cx)
 print(raizes)
 
